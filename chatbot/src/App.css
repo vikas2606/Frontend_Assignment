@@ -1,0 +1,61 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.App {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+ 
+  background-color: #D9AFD9;
+background-image: linear-gradient(0deg, #D9AFD9 0%, #97D9E1 100%);
+
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.react-chatbot-kit-chat-container {
+  width: 400px;
+}
+
+.react-chatbot-kit-chat-bot-message {
+  margin-left: 10px;
+}
+
+.react-chatbot-kit-chat-bot-message {
+  background-color: #052d9b;
+}
+
+.react-chatbot-kit-chat-bot-message-arrow {
+  border-right: 8px solid #052d9b;
+}
+
+.react-chatbot-kit-chat-btn-send {
+  background-color: #052d9b;
+}
+
+.SES {
+  background-color: #AA076B;
+  width: 40px;
+  height: 40px;
+  display: grid;
+  place-items: center;
+  color: white;
+  border-radius: 100%;
+}
+
+.start-btn {
+  background-color: #052d9b;
+  color: white;
+  padding: .5rem 1rem;
+  border-radius: 999px;
+  border: none;
+  cursor: pointer;
+  margin-left: 3rem;
+  
+}
+
+
